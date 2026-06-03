@@ -4,9 +4,6 @@
 
 This repository is organized as a step-by-step learning path, moving from fundamental Python operations through data manipulation and real dataset preprocessing.
 
-## Author
-
-- **subha**
 
 ## Project Structure
 
@@ -84,8 +81,10 @@ Contributions are welcome! You can help this project by:
 
 ## License
 
-This project follows the default repository license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
 
-For questions or suggestions, feel free .
+
+## Author
+
+**GitHub:** [subhash107k](https://github.com/subhash107k)
