@@ -1,35 +1,70 @@
 # Machine_Lab
 
-**Machine_Lab** is a beginner-friendly collection of Jupyter notebooks for learning and practicing core Python programming, data handling with pandas, and basic machine learning preprocessing techniques.
+**Machine_Lab** is a beginner-friendly collection of Jupyter notebooks for learning and practicing Python programming, data analysis, data preprocessing, and fundamental machine learning algorithms using NumPy, pandas, Scikit-learn, Matplotlib, and Seaborn.
 
-This repository is organized as a step-by-step learning path, moving from fundamental Python operations through data manipulation and real dataset preprocessing.
+The repository follows a structured, hands-on learning path that starts with Python fundamentals and progresses to implementing machine learning models for classification and regression.
 
+---
 
-## Project Structure
+# Project Structure
 
-- `Lab_1.ipynb` — Introduction to NumPy, matrix operations, array manipulation, and basic linear algebra concepts.
-- `Lab_2.ipynb` — Python dictionary fundamentals and pandas DataFrame operations, including filtering, sorting, indexing, and data manipulation.
-- `Lab_3.ipynb` — Titanic dataset analysis and preprocessing, including:
-  - handling missing values
-  - encoding categorical variables
-  - feature scaling
-  - outlier detection
-  - basic feature engineering
+- **Lab_1.ipynb** — Introduction to NumPy, matrix operations, array manipulation, and basic linear algebra concepts.
 
-## What You Will Learn
+- **Lab_2.ipynb** — Python dictionary fundamentals and pandas DataFrame operations, including:
+  - DataFrame creation
+  - Filtering
+  - Sorting
+  - Indexing
+  - Data manipulation
 
-- Working with NumPy arrays and matrix operations
-- Python dictionary and data structure handling
-- Creating and manipulating pandas DataFrames
-- Cleaning real-world datasets
-- Preparing data for machine learning models
-- Visualizing data using matplotlib and seaborn
+- **Lab_3.ipynb** — Titanic dataset analysis and preprocessing, including:
+  - Handling missing values
+  - Encoding categorical variables
+  - Feature scaling
+  - Outlier detection
+  - Feature engineering
+  - Data visualization
 
-## Requirements
+- **Lab_4_Logistic_SVC_SVR.ipynb** — Machine Learning with Scikit-learn:
+  - Logistic Regression (Classification)
+  - Support Vector Classification (SVC)
+  - Support Vector Regression (SVR)
+  - Model training and testing
+  - Performance evaluation
+  - Accuracy, Precision, Recall, F1-Score
+  - Confusion Matrix
+  - Classification Report
+  - Coefficient interpretation
+  - Hyperparameter basics
+  - Model comparison
 
-Install the following tools and libraries:
+---
 
-- Python 3.8 or higher
+# What You Will Learn
+
+- NumPy array programming
+- Matrix operations and linear algebra
+- Python dictionaries and data structures
+- Data manipulation using pandas
+- Data visualization using Matplotlib and Seaborn
+- Cleaning and preprocessing real-world datasets
+- Feature engineering techniques
+- Feature scaling and normalization
+- Building classification models
+- Building regression models
+- Logistic Regression
+- Support Vector Machines (SVC)
+- Support Vector Regression (SVR)
+- Evaluating machine learning models using standard metrics
+- Understanding model coefficients and decision boundaries
+
+---
+
+# Requirements
+
+Install the following dependencies:
+
+- Python 3.8+
 - Jupyter Notebook or JupyterLab
 - NumPy
 - pandas
@@ -37,54 +72,126 @@ Install the following tools and libraries:
 - seaborn
 - scikit-learn
 
-Install dependencies with:
+Install all required packages:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 ```
 
-## How to Run
+---
 
-### Option 1: Jupyter Notebook
+# How to Run
+
+## Option 1 — Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Then open:
+Open:
 
-- `Lab_1.ipynb`
-- `Lab_2.ipynb`
-- `Lab_3.ipynb`
+- Lab_1.ipynb
+- Lab_2.ipynb
+- Lab_3.ipynb
+- Lab_4_Logistic_SVC_SVR.ipynb
 
-### Option 2: JupyterLab (recommended)
+---
+
+## Option 2 — JupyterLab (Recommended)
 
 ```bash
 jupyter lab
 ```
 
-## Example Use Cases
+---
 
-- Practice NumPy matrix operations
-- Learn pandas data cleaning techniques
-- Explore Titanic dataset preprocessing
-- Prepare data for machine learning models
+# Topics Covered
 
-## Contributions
+### Lab 1
 
-Contributions are welcome! You can help this project by:
+- NumPy Arrays
+- Matrix Operations
+- Broadcasting
+- Linear Algebra
 
-- Adding new lab exercises
-- Improving preprocessing steps
-- Fixing bugs or optimizing code
-- Adding new datasets
+### Lab 2
 
-## License
+- Python Dictionaries
+- pandas DataFrames
+- Data Selection
+- Filtering
+- Sorting
+- Data Cleaning
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+### Lab 3
 
+- Titanic Dataset
+- Missing Value Handling
+- Encoding
+- Scaling
+- Outlier Detection
+- Feature Engineering
+- Data Visualization
 
+### Lab 4
 
-## Author
+- Breast Cancer Dataset
+- Logistic Regression
+- Support Vector Classification (SVC)
+- Support Vector Regression (SVR)
+- Train/Test Split
+- Model Evaluation
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+- Model Coefficients
+- Performance Interpretation
 
-**GitHub:** [subhash107k](https://github.com/subhash107k)
+---
+
+# Example Use Cases
+
+- Practice NumPy programming
+- Learn pandas data manipulation
+- Explore real-world dataset preprocessing
+- Train machine learning classification models
+- Implement regression algorithms
+- Evaluate model performance
+- Compare different machine learning algorithms
+
+---
+
+# Contributions
+
+Contributions are welcome!
+
+You can contribute by:
+
+- Adding new machine learning labs
+- Improving notebook explanations
+- Optimizing existing code
+- Adding visualization examples
+- Including additional datasets
+- Reporting bugs
+- Improving documentation
+
+---
+
+# License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for more information.
+
+---
+
+# Author
+
+**GitHub:** https://github.com/subhash107k
+
+---
+
+⭐ If you find this repository helpful, consider giving it a **Star** on GitHub to support the project and help others discover it.
